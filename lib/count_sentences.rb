@@ -4,6 +4,7 @@ class String
 
   def sentence?(sen)
     sen.end_with?(".")
+    binding.pry
   end
 
   def question?
