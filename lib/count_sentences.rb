@@ -16,6 +16,8 @@ class String
   end
 
   def count_sentences
-
+    x = self.scan(/?!\./)
+    binding.pry
+    x
   end
 end
